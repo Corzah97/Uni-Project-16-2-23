@@ -43,7 +43,7 @@ p {
     height: 650px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/image/background.png");
+    background-image: url("../../image/background.png");
     background-size: cover;
     background-position: center;
 }
@@ -52,7 +52,7 @@ p {
     height: 400px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/image/horiseon2.png");
+    background-image: url("../../image/horiseon2.png");
     background-size: cover;
     background-position: center;
     justify-content: right;
@@ -61,14 +61,6 @@ p {
 body{
     background-color:rgb(166, 138, 107)
 }
-
-/* .float-left {
-    margin-right: 295px;
-} */
-
-/* .float-right {
-    margin-left: 25px;
-} */
 
 .container {
     display: flex;
@@ -133,23 +125,6 @@ aside > p {
     width: 50%;
 }
 
-/* #AboutMe {
-    display: flex;
-    margin: auto;
-}
-
-.info div {
-    display: inline-block;
-}
-
-.info div p {
-    width: 120%;
-}
-
-.section-img {
-    list-style-image: 50px;
-} */
-
 .info aside {
     width: 20%;
 }
@@ -158,18 +133,18 @@ aside > p {
     width: 80%;
 }
 
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { */
 
   /* // Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) and (max-width: 767.98px) {
+  /* @media (min-width: 576px) and (max-width: 767.98px) { */
 
   /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991.98px) {
+  /* @media (min-width: 768px) and (max-width: 991.98px) { */
   
   /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* @media (min-width: 992px) and (max-width: 1199.98px) { */
   
-  /* // Extra large devices (large desktops, 1200px and up) */
+  /* // Extra large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) {
-  
+   */
