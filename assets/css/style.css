@@ -36,6 +36,7 @@ a {
 p{
     font-size: 20px;
     font-family: sans-serif;
+    justify-content: space-evenly;
 }
 
 .hero {
@@ -48,32 +49,37 @@ p{
 }
 
 body{
-    /* background-image: url("/image/background.png"); */
-    /* height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color:rgb(166, 138, 107)
 }
 
-.float-left {
-    /* margin-right: 295px; */
-}
+/* .float-left {
+    margin-right: 295px;
+} */
 
-.float-right {
-    /* margin-left: 25px; */
-}
+/* .float-right {
+    margin-left: 25px;
+} */
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
 }
 
+.info img {
+    max-height: 120px;
+    
+}
 
 .info {
     width: 75%;
     align: left;
     margin-left: 20px;
+}
+
+img {
+    margin: 3%;
+    padding:0%
 }
 
 .info-section h2 {
@@ -101,6 +107,7 @@ aside {
     box-shadow: inset -8px 0 5px -5px #29627e;
     float: left;
     font-style: italic;
+    font-size: large;
     color: #29627e;
 }
 
