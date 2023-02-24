@@ -1,5 +1,8 @@
 # Uni-Project-16-2-23
 
+## Description
+Today i was tasked with developing my own portfolio
+
 ## User Story
 AS AN employer
 
@@ -44,3 +47,5 @@ I included functioning navigation links at the top of the page to take the user 
 The page was styled for multiple screen sizes, including tablets and mobile phones.
 
 Site is divided into several sections, including About Me, Portfolio, and Contact Info.
+
+https://corzah97.github.io/Uni-Project-16-2-23/
