@@ -84,8 +84,8 @@ body{
 }
 
 img {
-    margin: 5%;
-    padding:0%
+    margin: 0%;
+    padding:1%
 }
 
 .info-section h2 {
@@ -110,7 +110,7 @@ aside {
     width: 500px;
     box-shadow: inset -8px 0 5px -5px #29627e;
     font-style: italic;
-    font-size: large;
+    /* font-size: 20px; */
     color: #29627e;
 }
 
@@ -139,18 +139,31 @@ aside > p {
     width: 80%;
 }
 
-/* // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { */
+@media screen and (max-width:1151px){
+    h2 {
+    font-size: 20px;
+   }
+}
+   @media screen and (max-width:1070px) {
+    h2 {
+        font-size: 20px;
+    }
+   }
 
-  /* // Small devices (landscape phones, 576px and up) */
-  /* @media (min-width: 576px) and (max-width: 767.98px) { */
+@media screen and (max-width:1058px) {
+    #ContactMe h2 {
+        font-size: 18px;
+    }
+}
 
-  /* // Medium devices (tablets, 768px and up) */
-  /* @media (min-width: 768px) and (max-width: 991.98px) { */
-  
-  /* // Large devices (desktops, 992px and up) */
-  /* @media (min-width: 992px) and (max-width: 1199.98px) { */
-  
-  /* // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {
-   */
+@media screen and (max-width:995px) {
+    #ContactMe h2 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:377px) {
+     h2 {
+        font-size: 16px;
+    }
+   }
