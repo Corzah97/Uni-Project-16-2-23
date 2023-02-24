@@ -34,18 +34,19 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
     font-family: sans-serif;
     justify-content: space-evenly;
     margin-left: 20px;
     margin-top: 0;
+    color: #29627e;
 }
 
 .hero {
     height: 650px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/image/hero.png");
+    background-image: url("../../assets/image/hero.png");
     background-size: cover;
     background-position: center;
 }
