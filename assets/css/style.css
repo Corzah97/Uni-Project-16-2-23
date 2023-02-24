@@ -101,9 +101,10 @@ img {
 }
 
 h2 {
-    display: inline;
+    /* display: inline;
     margin: 30px;
-    margin-top: 0 -5px;
+    margin-top: 0 -5px; */
+    padding: 3%;
 }
 
 aside {
@@ -165,5 +166,6 @@ aside > p {
 @media screen and (max-width:377px) {
      h2 {
         font-size: 16px;
+        width: 30%;
     }
    }
